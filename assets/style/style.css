@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    align-items: center;
+    background-color: navy;
+    display: flex;
+    justify-content: space-around;
+}
+header h1{
+    color: white;
+    padding: 1rem;
+    
+}
+.bh {
+    background-color: orangered;
+    border-radius: .4rem;
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem;
+}
+.principal_container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5rem;
+    padding: 0.5rem 3rem;
+    text-align: justify;
+    width: 100%;
+}
+
+.explanation_project{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.content {
+    margin:1rem 2rem;
+    width: 100%;
+}
+.content span {
+    color: navy;
+    font-weight: 700;
+}
+
+/*  */
+.container {
+    background-color: lightgray;
+    padding: 3rem;
+}
+
+
+.container_card {
+    align-items: center;
+    background-color: white;
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.38);
+    display: flex;
+    height: 28rem;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    width: 100%;
+    /* Efecto */
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+    
+}
+.container_card img {
+    height: 5rem;
+    width: 5rem;
+}
+.explanation_card{
+    line-height: 1.4rem;
+    width: 45%;
+}
+.explanation_card h4 {
+    margin-bottom: 0.4rem;
+}
+.model_template {
+    align-items: center;
+    background-color: navy;
+    border: black solid 1px;
+    border-radius: 3rem;
+    color: #E8FFCE;
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    justify-content: space-between;
+    padding: 1rem;
+    width: 50%;
+}
+.model_template a{
+    text-decoration: none;
+}
+.model_template form {
+    align-items: center;
+    height: 15rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+form label {
+    margin-top: 0.3rem;
+}
+
+.stage2 .header {
+    display: flex;
+    justify-content: space-around;
+    height: 10%;
+    width: 100%;
+}
+.stage2 .header img {
+    height: 2rem;
+    width: 2rem;
+}
+.stage2 .main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.stage2 .footer{
+    display: flex;
+    justify-content: space-around;
+    height: 10%;
+    width: 100%;
+}
+.stage2 .footer img{
+    height: 2rem;
+    width: 2rem;
+} 
+.status_container {
+    width: 100%;
+}
+.status {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.status p {
+    margin-left: 1rem;
+    width: 20%;
+}
+.status div{
+    width: 30%;
+}
+.level{
+    height: 0.4rem;
+    width: 3rem;
+    background-color: lightgreen;
+}
+table {
+    text-align: center;
+    width: 100%;
+}
+
+.img_product{
+    background-color: lightgreen;
+    color: navy;
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+}
+.stage3 {
+    display: flex;
+    flex-direction: column;
+}
+.stage3 button {
+    margin-top: 1rem;
+}
+
+.selected {
+    border-radius: 50%;
+    background-color: lightgreen;
+}
+
+.presentation {
+    color: #E8FFCE;
+    background-color: navy;
+    height: 100%;
+    width: 100%;
+}
+.presentation p {
+    margin-top: 1rem;
+}
+.presentation ul {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
